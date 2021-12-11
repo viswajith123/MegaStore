@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser"
+    android:background="@drawable/black">
+    <TextView
+        android:id="@+id/idTVHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <!--edit text for user name-->
+
+
+    <!--edit text for user password-->
+
+    <!--button to register our new user-->
+
+
+    <EditText
+        android:id="@+id/idEdUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="569dp"
+        android:hint="Enter UserName"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="376dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="495dp"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVHeader"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="431dp"
+        android:hint="Enter Email Id"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white" />
+
+
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="359dp"
+        android:hint="Enter Password"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/password_conform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="290dp"
+        android:hint="Enter Password"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="181dp"
+        android:backgroundTint="@color/black"
+        android:textSize="25dp"
+        android:text="Register User"
+        android:textAllCaps="false"
+        android:theme="@style/CardView" />
+
+
+
+</RelativeLayout>
+
